@@ -1,0 +1,99 @@
+
+
+button{
+    background-color: rgb(205, 190, 219);
+    color: black;
+    border: solid 3px;
+    border-color: black;
+    border-radius: 8px 8px 8px 8px;
+    padding: 15px 32px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+    margin: 4px 2px;    
+}
+
+body{
+    background-image: url("nev.jpg");
+    /*background-color: skyblue;*/
+    color: black;
+    font-size: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Menu{
+    background-image: url(mon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: fixed;
+    font-family: Helvetica;
+    width: 100%;
+    padding: 18px;
+    top: 0;
+    left: 0;
+    background-color: blue;
+}
+
+.Menu a{
+    /*overflow: hidden;*/
+    font-family: helvetica;
+    font-size: small;
+    text-decoration: none;
+    /*padding: 5px;*/
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: rgb(250, 245, 245);
+    transition-duration: 0.5s;
+
+}
+
+.Menu a:hover{
+    font-weight: 900;
+    background: rgb(255, 255, 255);
+    color: blue;
+    border: 6px solid orange;
+    font-size: large;
+
+}
+
+.cuerpo{
+    margin-top: 20px;
+    padding: 10px;
+    font-family: Raleway;
+}
+
+.datos{
+    background-size: cover;    
+     background-repeat: no-repeat;    
+     height: 500px;   
+     position: relative; 
+     margin: 3%;
+}
+
+.descripcion{
+    text-align: center;    
+    font-family: 'Trebuchet MS';    
+    color: black; 
+    position: absolute;     
+    top: 25%;     left: 30%; right: 30%;    
+    text-transform: (-50%,-50%);
+}
+
+.volver{
+    color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+

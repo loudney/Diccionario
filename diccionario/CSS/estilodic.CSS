@@ -1,0 +1,95 @@
+body{
+    font-family: Raleway;
+}
+
+.elemento{
+    box-shadow: 0 4px 8px rgb(236, 170, 170);
+    float: left;
+    width: 28%;
+    margin: 15px;
+    padding: 15px;
+    font-weight: bolder;
+    background-color: rgba(221, 38, 130, 0.582);
+
+}
+.letra{
+    background-color: rgba(252, 240, 255, 0.671);
+    color: rgb(110, 24, 110);
+    border: 2px solid rgba(207, 135, 235, 0.726);
+    float: left;
+    width: 100%;
+    font-size: large;
+    text-align: center;
+}
+
+.letra :hover{
+    background-color: rgb(192, 241, 101);
+    color: white; 
+    background: linear-gradient(70deg, rgb(9, 6, 46), rgb(99, 41, 41),rgb(165, 100, 39));
+}
+
+.autor{
+    border: 2px solid skyblue;
+    z-index: 3;
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+.menu{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: fixed;
+    float: left;
+    z-index: 3;
+    font-family: Helvetica;
+    width: 100%;
+    padding: 18px;
+    top: 0;
+    left: 0;
+    background-color: rgb(173, 123, 231);
+    
+}
+
+.menu a{
+    font-family: helvetica;
+    font-size: 20PX;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: rgb(241, 241, 241);
+    transition-duration: 0.5s;
+    margin: 7px;
+
+}
+
+.menu a:hover{
+    font-weight: 800;
+    background: rgba(141, 105, 105, 0.856);
+    color: rgb(255, 255, 255);
+    border: 6px solid rgb(6, 11, 61);
+    font-size: large;
+    position: fixed;
+
+}
+
+.contenido{
+    border: 2px;
+}
+
+.foto{
+    width: 50%;
+}
+
+.fot{
+    border: 2px;
+}
+
+.autor :hover{
+    background: linear-gradient(70deg, rgb(9, 6, 46), rgb(99, 41, 41),rgb(165, 100, 39));
+    color: white;
+}
